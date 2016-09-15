@@ -3,4 +3,4 @@
  ![image](https://github.com/jerryq1/UITableController/raw/master/UITableController/UITableView.gif)
  
  这个项目源自小波老师
- 主要难点是闭包的使用合数组对应逻辑
+ 主要难点是闭包的使用和数组对应逻辑
