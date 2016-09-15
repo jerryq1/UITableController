@@ -92,6 +92,7 @@ class RestaurantTableViewController: UITableViewController {
         let  我来过闭包 = {(action:UIAlertAction)->Void in
 //        让选中行(去过的餐厅)标记为true
             self.去过的餐厅[indexPath.row] = true
+            self.tableView.reloadData()
         }
         let 我来过 = UIAlertAction(title: "我来过", style: .Default, handler: 我来过闭包)
         alert.addAction(我来过)
