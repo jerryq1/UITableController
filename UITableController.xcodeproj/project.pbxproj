@@ -15,6 +15,7 @@
 		C45985291D81F6230012EAF4 /* UITableControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45985281D81F6230012EAF4 /* UITableControllerTests.swift */; };
 		C45985341D81F6230012EAF4 /* UITableControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45985331D81F6230012EAF4 /* UITableControllerUITests.swift */; };
 		C45985421D81F7710012EAF4 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45985411D81F7710012EAF4 /* RestaurantTableViewController.swift */; };
+		C45990D21D8CF57500615443 /* UITableView1.gif in Resources */ = {isa = PBXBuildFile; fileRef = C45990D11D8CF57500615443 /* UITableView1.gif */; };
 		C48B91F61D8A316F0007405E /* UITableView.gif in Resources */ = {isa = PBXBuildFile; fileRef = C48B91F51D8A316F0007405E /* UITableView.gif */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		C45985331D81F6230012EAF4 /* UITableControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableControllerUITests.swift; sourceTree = "<group>"; };
 		C45985351D81F6230012EAF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C45985411D81F7710012EAF4 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		C45990D11D8CF57500615443 /* UITableView1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = UITableView1.gif; sourceTree = "<group>"; };
 		C48B91F51D8A316F0007405E /* UITableView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = UITableView.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 				C45985411D81F7710012EAF4 /* RestaurantTableViewController.swift */,
 				C459851A1D81F6220012EAF4 /* Assets.xcassets */,
 				C48B91F51D8A316F0007405E /* UITableView.gif */,
+				C45990D11D8CF57500615443 /* UITableView1.gif */,
 				C459851C1D81F6220012EAF4 /* LaunchScreen.storyboard */,
 				C459851F1D81F6220012EAF4 /* Info.plist */,
 			);
@@ -239,6 +242,7 @@
 				C459851E1D81F6220012EAF4 /* LaunchScreen.storyboard in Resources */,
 				C459851B1D81F6220012EAF4 /* Assets.xcassets in Resources */,
 				C45985191D81F6220012EAF4 /* Main.storyboard in Resources */,
+				C45990D21D8CF57500615443 /* UITableView1.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
