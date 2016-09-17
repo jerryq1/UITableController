@@ -63,14 +63,14 @@ class RestaurantTableViewController: UITableViewController {
         cell.location.text = 餐馆地点[indexPath.row]
         cell.RestaurantType.text = 餐馆类型[indexPath.row]
         //这个是标记，我来过的标记，等于收藏星星
-        cell.女神.image = UIImage(named: "1.jpg")
+        cell.女神.image = UIImage(named: "怪兽.jepg")
         cell.女神.hidden = true
         if 去过的餐厅[indexPath.row]{
             cell.女神.hidden = false
         }else{
             cell.女神.hidden = true
         }
-    
+        
         return cell
     }
     //点击选中cell发生
@@ -91,7 +91,13 @@ class RestaurantTableViewController: UITableViewController {
         alert.addAction(cancleAtion)
         let  我来过闭包 = {(action:UIAlertAction)->Void in
 //        让选中行(去过的餐厅)标记为true
-            self.去过的餐厅[indexPath.row] = true
+            let bianliang:Bool
+            if self.去过的餐厅[indexPath.row]{
+                bianliang = false
+            }else{
+                bianliang = true
+            }
+            self.去过的餐厅[indexPath.row] = bianliang
             self.tableView.reloadData()
         }
         let 我来过 = UIAlertAction(title: "我来过", style: .Default, handler: 我来过闭包)
